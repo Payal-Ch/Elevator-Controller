@@ -1,2 +1,3 @@
-# Elevator-Controller
-This project implements a controller for an elevator system serving 5 floors. It manages the elevator's movement based on user input for floor selection. The design includes a state diagram, state table, VHDL code, RTL schematic, and testbench, tested with multiple test cases for correctness.
+# Elevator Controller for 5 Floors
+
+This project implements a Mealy state machine for an elevator system with 5 floors. It uses 3-bit inputs for floor requests and up/down buttons for each floor. The elevator moves between floors based on the button inputs, with the current and next floor states updated accordingly. The design includes VHDL code, simulation waveforms, and test cases to verify functionality.
